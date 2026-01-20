@@ -1,8 +1,7 @@
-from fastapi import FastAPI, Request
 import requests
 import os
 import re
-
+print("DEBUG BOT_TOKEN:", os.getenv("BOT_TOKEN"))
 from statsbomb_loader import load_season_finishing
 
 app = FastAPI()
