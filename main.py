@@ -1,3 +1,4 @@
+print(">>> RUNNING NEW MAIN.PY <<<")
 from fastapi import FastAPI, Request
 import requests
 import os
